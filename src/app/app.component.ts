@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'OLISA-Angular_13';
+  constructor() { }
+
+  ngOnInit(): void {}
+
+  loginTitle = "login";
+  registrationTitle = "registration";
 }
